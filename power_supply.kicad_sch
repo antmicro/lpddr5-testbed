@@ -3860,7 +3860,7 @@
   (symbol (lib_id "K410T-devboard:GND") (at 247.015 120.015 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2da919a8-c02f-42b1-bff5-0fd01f5a550e)
-    (property "Reference" "#PWR?" (id 0) (at 247.015 126.365 0)
+    (property "Reference" "#PWR0215" (id 0) (at 247.015 126.365 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 245.11 123.825 0)
