@@ -3408,6 +3408,9 @@
     (path "/8284e6ba-95fc-4176-b0ce-5218f401349d/ca6c700c-83f2-44bf-9cfd-7e9d88a4c4a7"
       (reference "#PWR0269") (unit 1) (value "GND") (footprint "")
     )
+    (path "/6dc6d680-4b07-4d6c-9fb2-b5a24aa4dc23/6b5800dc-5154-4d34-8ec1-37538a24a585"
+      (reference "#PWR0270") (unit 1) (value "+1V8") (footprint "")
+    )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/e4ba032c-239f-4daf-882c-87243f4a0210"
       (reference "C1") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
@@ -3640,13 +3643,13 @@
       (reference "D2") (unit 1) (value "LED_G_0603_KP-1608CGCK") (footprint "antmicro-footprints:LED_0603_1608Metric_G")
     )
     (path "/00000000-0000-0000-0000-00005fdc4a05/9df02ae0-4a88-4865-a506-70004ec88bdf"
-      (reference "J1") (unit 1) (value "Edge_Conn_Bus_LPDDR5_testbed") (footprint "antmicro-footprints:Edge_Conn_Bus_DDR5_SODIMM")
+      (reference "J1") (unit 1) (value "Edge_Connus_LPDDR5_testbed") (footprint "antmicro-footprints:Edge_Conn_Bus_DDR5_SODIMM")
     )
     (path "/00000000-0000-0000-0000-00005fdc4a05/2287329b-005e-4337-bd13-05c1a11e4f28"
-      (reference "J1") (unit 2) (value "Edge_Conn_Bus_LPDDR5_testbed") (footprint "antmicro-footprints:Edge_Conn_Bus_DDR5_SODIMM")
+      (reference "J1") (unit 2) (value "Edge_Connus_LPDDR5_testbed") (footprint "antmicro-footprints:Edge_Conn_Bus_DDR5_SODIMM")
     )
     (path "/00000000-0000-0000-0000-00005fdc4a05/2607f3bf-53a4-4817-a579-30ab6d69b605"
-      (reference "J2") (unit 3) (value "Edge_Connus_LPDDR5_testbed") (footprint "antmicro-footprints:Edge_Conn_Bus_DDR5_SODIMM")
+      (reference "J1") (unit 3) (value "Edge_Connus_LPDDR5_testbed") (footprint "antmicro-footprints:Edge_Conn_Bus_DDR5_SODIMM")
     )
     (path "/6dc6d680-4b07-4d6c-9fb2-b5a24aa4dc23/bb92300d-26b8-4d00-9fcc-dedad92bc082"
       (reference "J3") (unit 1) (value "JST_SH_1x4_SM04B-SRSS-TB-LF-SN") (footprint "antmicro-footprints:Conn_JST_SH_1x4_SM04B-SRSS-TB-LF-SN")
