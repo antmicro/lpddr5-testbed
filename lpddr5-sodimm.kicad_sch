@@ -3036,7 +3036,7 @@
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/1a997299-d16f-42fc-8500-2f4a07715e30"
       (reference "#PWR0145") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005ff943ac/811673d9-d593-4122-8f1e-ad05b9675891"
+    (path "/00000000-0000-0000-0000-00005ff943ac/581343c0-4282-454a-ba62-0ee14fa85d04"
       (reference "#PWR0146") (unit 1) (value "+1V05") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/55aa8686-4e84-4d30-a685-2889fb545f14"
@@ -3273,6 +3273,9 @@
     (path "/6dc6d680-4b07-4d6c-9fb2-b5a24aa4dc23/763aabf7-a4a0-48cd-957d-40d3cfad6124"
       (reference "#PWR0224") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005ff943ac/e1c93f19-893a-4ee8-bc75-df081411c018"
+      (reference "#PWR0225") (unit 1) (value "GND") (footprint "")
+    )
     (path "/8284e6ba-95fc-4176-b0ce-5218f401349d/5b01203e-063c-48bc-9190-2bfa1519d8c2"
       (reference "#PWR0226") (unit 1) (value "GND") (footprint "")
     )
@@ -3407,6 +3410,9 @@
     )
     (path "/6dc6d680-4b07-4d6c-9fb2-b5a24aa4dc23/6b5800dc-5154-4d34-8ec1-37538a24a585"
       (reference "#PWR0270") (unit 1) (value "+1V8") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005ff943ac/96ce219f-5696-4871-8db2-1eed6bfc649d"
+      (reference "#PWR0271") (unit 1) (value "GND") (footprint "")
     )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/e4ba032c-239f-4daf-882c-87243f4a0210"
       (reference "C1") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
@@ -3632,6 +3638,12 @@
     )
     (path "/8284e6ba-95fc-4176-b0ce-5218f401349d/8e351c64-79de-45e0-87ae-b957c8472f9b"
       (reference "C75") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005ff943ac/e7b2362e-1674-4add-8fd1-5cd42d7e3f92"
+      (reference "C76") (unit 1) (value "C_4u7_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005ff943ac/6e79972c-7b5f-4767-83fe-3a64def09521"
+      (reference "C77") (unit 1) (value "C_4u7_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/6dc6d680-4b07-4d6c-9fb2-b5a24aa4dc23/aa0cd7e6-2dde-4136-a9a9-bef2ff45f4f5"
       (reference "D1") (unit 1) (value "PTVS48VS1UR") (footprint "antmicro-footprints:D_SOD-123F")
