@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -64,8 +64,8 @@
       35,
       36
     ],
-    "visible_layers": "000f085_8000001b",
-    "zone_display_mode": 0
+    "visible_layers": "000f085_8000001f",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "lpddr5-sodimm.kicad_prl",
