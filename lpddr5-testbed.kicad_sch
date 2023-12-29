@@ -3225,7 +3225,7 @@
       (reference "U7") (unit 1) (value "AT24CS01_SOT23") (footprint "antmicro-footprints:SOT-23-5")
     )
     (path "/6dc6d680-4b07-4d6c-9fb2-b5a24aa4dc23/1f793804-8d63-4dc6-bd67-b657de57098e"
-      (reference "U8") (unit 1) (value "MPM54304GMN-0001") (footprint "antmicro-footprints:MPS_LGA-33")
+      (reference "U8") (unit 1) (value "MPM54304GMN-0001") (footprint "antmicro-footprints:LGA-33_7x7mm_P0.65mm")
     )
     (path "/6dc6d680-4b07-4d6c-9fb2-b5a24aa4dc23/22ae53d9-9da6-4f61-9f3a-65e9aa4c4a07"
       (reference "U9") (unit 1) (value "LT3033EUDC_QFN") (footprint "antmicro-footprints:QFN-20-4EP_3x4x0.75mm_P0.5mm_Layout4x6_LT3033")
