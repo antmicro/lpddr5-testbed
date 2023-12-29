@@ -2943,28 +2943,28 @@
       (reference "R2") (unit 1) (value "R_100R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/8205016f-64d5-4788-a514-58a3a2dc0e03"
-      (reference "R3") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R3") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/da106cb8-97e7-4a19-8bd9-4d16246e9819"
-      (reference "R4") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R4") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/a1ccd749-85f8-43a6-a0f2-cfb1a50e8b25"
-      (reference "R5") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R5") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/9d6a5bc5-518d-4bad-88a4-d28a3838a8df"
       (reference "R6") (unit 1) (value "R_100R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/866d99de-ba33-4fe0-88b9-82effcf0c86a"
-      (reference "R7") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R7") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/80138222-6b2d-4b12-8dfc-5f2c4dba1d2b"
-      (reference "R8") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R8") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/81dacb99-d2df-4acc-b9e9-88b54c0685a1"
-      (reference "R9") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R9") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/73f16492-bdab-4115-bc11-3fb3165249c0"
-      (reference "R10") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R10") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/7294143a-9856-4230-b5eb-b458ec71d702"
       (reference "R11") (unit 1) (value "R_100R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
@@ -2985,28 +2985,28 @@
       (reference "R16") (unit 1) (value "R_100R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/3d4304d4-dfee-4108-b0fc-428b1fde9c3b"
-      (reference "R17") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R17") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/4e2f416f-c9da-4d23-b2fc-68f9d510385b"
-      (reference "R18") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R18") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/eeb61155-444f-49e1-bfc8-c324abf13f4b"
-      (reference "R19") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R19") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/c8e31a64-3eb2-4653-9b06-f42795e25aa4"
       (reference "R20") (unit 1) (value "R_100R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/6965eb50-89fe-4be8-b557-2ff6e2d3caec"
-      (reference "R21") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R21") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/ca94ae8d-45ed-41fb-b564-d5261af203dd"
-      (reference "R22") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R22") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/06ea24f4-b496-49cd-bce4-a683d102d9f8"
-      (reference "R23") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R23") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/529e454a-836e-47ad-ab94-94007188d281"
-      (reference "R24") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R24") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/06058dea-bf4a-4c01-a1d3-e91f9655cf28"
       (reference "R25") (unit 1) (value "R_100R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
@@ -3102,28 +3102,28 @@
       (reference "R55") (unit 1) (value "R_100R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/8284e6ba-95fc-4176-b0ce-5218f401349d/8205016f-64d5-4788-a514-58a3a2dc0e03"
-      (reference "R56") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R56") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/8284e6ba-95fc-4176-b0ce-5218f401349d/da106cb8-97e7-4a19-8bd9-4d16246e9819"
-      (reference "R57") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R57") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/8284e6ba-95fc-4176-b0ce-5218f401349d/a1ccd749-85f8-43a6-a0f2-cfb1a50e8b25"
-      (reference "R58") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R58") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/94c7a524-fc9d-4fdf-8911-48a8a25f82c5"
       (reference "R59") (unit 1) (value "R_100R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/8284e6ba-95fc-4176-b0ce-5218f401349d/866d99de-ba33-4fe0-88b9-82effcf0c86a"
-      (reference "R60") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R60") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/8284e6ba-95fc-4176-b0ce-5218f401349d/80138222-6b2d-4b12-8dfc-5f2c4dba1d2b"
-      (reference "R61") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R61") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/8284e6ba-95fc-4176-b0ce-5218f401349d/81dacb99-d2df-4acc-b9e9-88b54c0685a1"
-      (reference "R62") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R62") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/8284e6ba-95fc-4176-b0ce-5218f401349d/73f16492-bdab-4115-bc11-3fb3165249c0"
-      (reference "R63") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R63") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/8284e6ba-95fc-4176-b0ce-5218f401349d/7294143a-9856-4230-b5eb-b458ec71d702"
       (reference "R64") (unit 1) (value "R_100R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
@@ -3147,28 +3147,28 @@
       (reference "R70") (unit 1) (value "R_100R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/8284e6ba-95fc-4176-b0ce-5218f401349d/3d4304d4-dfee-4108-b0fc-428b1fde9c3b"
-      (reference "R71") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R71") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/8284e6ba-95fc-4176-b0ce-5218f401349d/4e2f416f-c9da-4d23-b2fc-68f9d510385b"
-      (reference "R72") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R72") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/8284e6ba-95fc-4176-b0ce-5218f401349d/eeb61155-444f-49e1-bfc8-c324abf13f4b"
-      (reference "R73") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R73") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/eed8caf2-7969-42cf-b4db-aded104578ac"
       (reference "R74") (unit 1) (value "R_100R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/8284e6ba-95fc-4176-b0ce-5218f401349d/6965eb50-89fe-4be8-b557-2ff6e2d3caec"
-      (reference "R75") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R75") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/8284e6ba-95fc-4176-b0ce-5218f401349d/ca94ae8d-45ed-41fb-b564-d5261af203dd"
-      (reference "R76") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R76") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/8284e6ba-95fc-4176-b0ce-5218f401349d/06ea24f4-b496-49cd-bce4-a683d102d9f8"
-      (reference "R77") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R77") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/8284e6ba-95fc-4176-b0ce-5218f401349d/529e454a-836e-47ad-ab94-94007188d281"
-      (reference "R78") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402")
+      (reference "R78") (unit 1) (value "R_4x100R_0402_array") (footprint "antmicro-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
     (path "/8284e6ba-95fc-4176-b0ce-5218f401349d/06058dea-bf4a-4c01-a1d3-e91f9655cf28"
       (reference "R79") (unit 1) (value "R_100R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
