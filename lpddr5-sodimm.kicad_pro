@@ -647,7 +647,7 @@
           "/SODIMM/LPDDR5_IN_B.DQ8",
           "/SODIMM/LPDDR5_IN_B.DQ9"
         ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 255, 96)",
         "schematic_color": "rgb(113, 0, 255)",
         "track_width": 0.2,
         "via_diameter": 0.4,
