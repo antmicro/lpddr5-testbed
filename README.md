@@ -12,7 +12,7 @@ The module includes a standard 315-ball WFBGA (12.4mm × 15.0mm × 0.8mm, Ø0.42
 The design files were prepared in KiCad. 
 
 Please note that this board is not electrically compatible with off-the-shelf SO-DIMM DDR5 memory modules. 
-It is compatible with [this](https://github.com/antmicro/lpddr5-test-board) test platform.
+It is compatible with [this](https://github.com/antmicro/sodimm-ddr5-tester) test platform.
 
 ## Project structure
 
