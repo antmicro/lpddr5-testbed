@@ -190,6 +190,10 @@
     (uuid ec05e81b-cde5-4b2b-971a-b11e1c1de2fe)
   )
 
+  (wire (pts (xy 146.05 193.04) (xy 184.15 193.04))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid f13ff619-2979-4644-8652-7a6c3ab6b520)
+  )
   (wire (pts (xy 199.39 87.63) (xy 198.12 87.63))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid f5a4122f-a3b1-4725-8478-84e09afb9c8a)
@@ -2382,6 +2386,10 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 8e213ddc-2392-4ed9-a8e5-3e23a0d140b7)
     )
+    (pin "PWRGD" input (at 146.05 193.04 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid f8e74a40-3cf5-491a-9d63-a0c198183d5d)
+    )
   )
 
   (sheet (at 247.65 101.6) (size 41.91 25.4) (fields_autoplaced)
@@ -2425,6 +2433,10 @@
     (pin "PWR_EN" input (at 184.15 185.42 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid c5d62f11-d7ea-4af0-98bd-a8beffdef94b)
+    )
+    (pin "PWRGD" output (at 184.15 193.04 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 302f095e-dbd2-49b7-a3a8-1a2cfc9436f2)
     )
   )
 
@@ -2506,6 +2518,9 @@
     )
     (path "/3b780626-7d00-4875-b76c-170bd4b3339b"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6dc6d680-4b07-4d6c-9fb2-b5a24aa4dc23/56c872e4-9c8c-4a1b-9094-c4706673ff8d"
+      (reference "#PWR0102") (unit 1) (value "+1V1") (footprint "")
     )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/75a98f04-2722-4937-a614-62aefca1a576"
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
@@ -2747,9 +2762,6 @@
     (path "/00000000-0000-0000-0000-00005ff943ac/e1c93f19-893a-4ee8-bc75-df081411c018"
       (reference "#PWR0225") (unit 1) (value "GND") (footprint "")
     )
-    (path "/6dc6d680-4b07-4d6c-9fb2-b5a24aa4dc23/6b5800dc-5154-4d34-8ec1-37538a24a585"
-      (reference "#PWR0270") (unit 1) (value "+1V8") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005ff943ac/96ce219f-5696-4871-8db2-1eed6bfc649d"
       (reference "#PWR0271") (unit 1) (value "GND") (footprint "")
     )
@@ -2942,6 +2954,9 @@
     (path "/36feb2bc-19fd-4c1a-bb5d-109d9c08ceb3"
       (reference "R2") (unit 1) (value "R_100R_0402") (footprint "lpddr5-testbed-footprints:R_0402_1005Metric")
     )
+    (path "/6dc6d680-4b07-4d6c-9fb2-b5a24aa4dc23/607ffe01-e8f2-4613-aa20-a0ab14ebad31"
+      (reference "R3") (unit 1) (value "R_0R_0402") (footprint "lpddr5-testbed-footprints:R_0402_1005Metric")
+    )
     (path "/afd026d6-1a56-4fdd-8c33-af6dc6bd4334/da106cb8-97e7-4a19-8bd9-4d16246e9819"
       (reference "R4") (unit 1) (value "R_4x100R_0402_array") (footprint "lpddr5-testbed-footprints:R_Array_4x0402_Panasonic_EXB28V")
     )
@@ -3013,9 +3028,6 @@
     )
     (path "/6dc6d680-4b07-4d6c-9fb2-b5a24aa4dc23/74cb3865-c5cd-4e86-b0f5-c37778d0e3d6"
       (reference "R29") (unit 1) (value "R_0R_0402") (footprint "lpddr5-testbed-footprints:R_0402_1005Metric")
-    )
-    (path "/6dc6d680-4b07-4d6c-9fb2-b5a24aa4dc23/32f9b6c4-c055-4253-8176-2288143dab41"
-      (reference "R30") (unit 1) (value "R_100k_0402") (footprint "lpddr5-testbed-footprints:R_0402_1005Metric")
     )
     (path "/6dc6d680-4b07-4d6c-9fb2-b5a24aa4dc23/2d9cbb29-f69f-4727-be13-15cbda03aaf9"
       (reference "R31") (unit 1) (value "R_25k5_0402") (footprint "lpddr5-testbed-footprints:R_0402_1005Metric")
@@ -3211,6 +3223,21 @@
     )
     (path "/6dc6d680-4b07-4d6c-9fb2-b5a24aa4dc23/2146f013-f7ee-49d1-b67f-6d86d07b4c2a"
       (reference "TP3") (unit 1) (value "TP_1mm_SMD") (footprint "lpddr5-testbed-footprints:TP_SMD_1mm")
+    )
+    (path "/6dc6d680-4b07-4d6c-9fb2-b5a24aa4dc23/cb8bd187-6902-4577-8c05-1473acf607e4"
+      (reference "TP4") (unit 1) (value "TP_0.75mm_SMD") (footprint "lpddr5-testbed-footprints:TP_SMD_0.75mm")
+    )
+    (path "/6dc6d680-4b07-4d6c-9fb2-b5a24aa4dc23/0c677b03-d461-49f7-8de3-8f27412d1537"
+      (reference "TP5") (unit 1) (value "TP_0.75mm_SMD") (footprint "lpddr5-testbed-footprints:TP_SMD_0.75mm")
+    )
+    (path "/6dc6d680-4b07-4d6c-9fb2-b5a24aa4dc23/e8572542-2ddf-4aee-8040-65ce6266bc8e"
+      (reference "TP6") (unit 1) (value "TP_0.75mm_SMD") (footprint "lpddr5-testbed-footprints:TP_SMD_0.75mm")
+    )
+    (path "/6dc6d680-4b07-4d6c-9fb2-b5a24aa4dc23/f555dd8c-f694-45a3-8af1-7d53aad85957"
+      (reference "TP7") (unit 1) (value "TP_0.75mm_SMD") (footprint "lpddr5-testbed-footprints:TP_SMD_0.75mm")
+    )
+    (path "/6dc6d680-4b07-4d6c-9fb2-b5a24aa4dc23/67492140-899c-4010-94b1-1e80fd9a9721"
+      (reference "TP8") (unit 1) (value "TP_0.75mm_SMD") (footprint "lpddr5-testbed-footprints:TP_SMD_0.75mm")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/a542b0b1-3526-4197-89e0-7544f3a8300c"
       (reference "U1") (unit 1) (value "MT62F1G32D4DR-031") (footprint "lpddr5-testbed-footprints:BGA-315_12.4x15mm_Layout15x21_P0.8x0.7mm")
