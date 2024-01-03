@@ -1,5 +1,6 @@
 {
   "board": {
+    "3dviewports": [],
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.049999999999999996,
@@ -152,7 +153,8 @@
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
-    "layer_presets": []
+    "layer_presets": [],
+    "viewports": []
   },
   "boards": [],
   "cvpcb": {
@@ -336,18 +338,23 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -357,6 +364,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -400,40 +408,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "110Ohm-diff-lpddr5-clk",
-        "nets": [
-          "/LPDDR5/LPDDR5_A.CK_N",
-          "/LPDDR5/LPDDR5_A.CK_P",
-          "/LPDDR5/LPDDR5_A.RDQS0_N",
-          "/LPDDR5/LPDDR5_A.RDQS0_P",
-          "/LPDDR5/LPDDR5_A.RDQS1_N",
-          "/LPDDR5/LPDDR5_A.RDQS1_P",
-          "/LPDDR5/LPDDR5_A.WCK0_N",
-          "/LPDDR5/LPDDR5_A.WCK0_P",
-          "/LPDDR5/LPDDR5_A.WCK1_N",
-          "/LPDDR5/LPDDR5_A.WCK1_P",
-          "/LPDDR5/LPDDR5_B.CK_N",
-          "/LPDDR5/LPDDR5_B.CK_P",
-          "/LPDDR5/LPDDR5_B.RDQS0_N",
-          "/LPDDR5/LPDDR5_B.RDQS0_P",
-          "/LPDDR5/LPDDR5_B.RDQS1_N",
-          "/LPDDR5/LPDDR5_B.RDQS1_P",
-          "/LPDDR5/LPDDR5_B.WCK0_N",
-          "/LPDDR5/LPDDR5_B.WCK0_P",
-          "/LPDDR5/LPDDR5_B.WCK1_N",
-          "/LPDDR5/LPDDR5_B.WCK1_P",
-          "/SODIMM/LPDDR5_IN_A.CK_N",
-          "/SODIMM/LPDDR5_IN_A.CK_P",
-          "/SODIMM/LPDDR5_IN_A.WCK0_N",
-          "/SODIMM/LPDDR5_IN_A.WCK0_P",
-          "/SODIMM/LPDDR5_IN_A.WCK1_N",
-          "/SODIMM/LPDDR5_IN_A.WCK1_P",
-          "/SODIMM/LPDDR5_IN_B.CK_N",
-          "/SODIMM/LPDDR5_IN_B.CK_P",
-          "/SODIMM/LPDDR5_IN_B.WCK0_N",
-          "/SODIMM/LPDDR5_IN_B.WCK0_P",
-          "/SODIMM/LPDDR5_IN_B.WCK1_N",
-          "/SODIMM/LPDDR5_IN_B.WCK1_P"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 0, 181)",
         "track_width": 0.15,
@@ -451,30 +426,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "65Ohm-se-lpddr5-cmd/ctrl-a",
-        "nets": [
-          "/LPDDR5/LPDDR5_A.CA0",
-          "/LPDDR5/LPDDR5_A.CA1",
-          "/LPDDR5/LPDDR5_A.CA2",
-          "/LPDDR5/LPDDR5_A.CA3",
-          "/LPDDR5/LPDDR5_A.CA4",
-          "/LPDDR5/LPDDR5_A.CA5",
-          "/LPDDR5/LPDDR5_A.CA6",
-          "/LPDDR5/LPDDR5_A.CS0",
-          "/LPDDR5/LPDDR5_A.CS1",
-          "/LPDDR5/LPDDR5_A.DMI0",
-          "/LPDDR5/LPDDR5_A.DMI1",
-          "/SODIMM/LPDDR5_IN_A.CA0",
-          "/SODIMM/LPDDR5_IN_A.CA1",
-          "/SODIMM/LPDDR5_IN_A.CA2",
-          "/SODIMM/LPDDR5_IN_A.CA3",
-          "/SODIMM/LPDDR5_IN_A.CA4",
-          "/SODIMM/LPDDR5_IN_A.CA5",
-          "/SODIMM/LPDDR5_IN_A.CA6",
-          "/SODIMM/LPDDR5_IN_A.CS0",
-          "/SODIMM/LPDDR5_IN_A.CS1",
-          "/SODIMM/LPDDR5_IN_A.DMI0",
-          "/SODIMM/LPDDR5_IN_A.DMI1"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 216, 82)",
         "track_width": 0.15,
@@ -492,30 +444,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "65Ohm-se-lpddr5-cmd/ctrl-b",
-        "nets": [
-          "/LPDDR5/LPDDR5_B.CA0",
-          "/LPDDR5/LPDDR5_B.CA1",
-          "/LPDDR5/LPDDR5_B.CA2",
-          "/LPDDR5/LPDDR5_B.CA3",
-          "/LPDDR5/LPDDR5_B.CA4",
-          "/LPDDR5/LPDDR5_B.CA5",
-          "/LPDDR5/LPDDR5_B.CA6",
-          "/LPDDR5/LPDDR5_B.CS0",
-          "/LPDDR5/LPDDR5_B.CS1",
-          "/LPDDR5/LPDDR5_B.DMI0",
-          "/LPDDR5/LPDDR5_B.DMI1",
-          "/SODIMM/LPDDR5_IN_B.CA0",
-          "/SODIMM/LPDDR5_IN_B.CA1",
-          "/SODIMM/LPDDR5_IN_B.CA2",
-          "/SODIMM/LPDDR5_IN_B.CA3",
-          "/SODIMM/LPDDR5_IN_B.CA4",
-          "/SODIMM/LPDDR5_IN_B.CA5",
-          "/SODIMM/LPDDR5_IN_B.CA6",
-          "/SODIMM/LPDDR5_IN_B.CS0",
-          "/SODIMM/LPDDR5_IN_B.CS1",
-          "/SODIMM/LPDDR5_IN_B.DMI0",
-          "/SODIMM/LPDDR5_IN_B.DMI1"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 118, 0)",
         "track_width": 0.2,
@@ -533,24 +462,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "65Ohm-se-lpddr5-data-a-0",
-        "nets": [
-          "/LPDDR5/LPDDR5_A.DQ0",
-          "/LPDDR5/LPDDR5_A.DQ1",
-          "/LPDDR5/LPDDR5_A.DQ2",
-          "/LPDDR5/LPDDR5_A.DQ3",
-          "/LPDDR5/LPDDR5_A.DQ4",
-          "/LPDDR5/LPDDR5_A.DQ5",
-          "/LPDDR5/LPDDR5_A.DQ6",
-          "/LPDDR5/LPDDR5_A.DQ7",
-          "/SODIMM/LPDDR5_IN_A.DQ0",
-          "/SODIMM/LPDDR5_IN_A.DQ1",
-          "/SODIMM/LPDDR5_IN_A.DQ2",
-          "/SODIMM/LPDDR5_IN_A.DQ3",
-          "/SODIMM/LPDDR5_IN_A.DQ4",
-          "/SODIMM/LPDDR5_IN_A.DQ5",
-          "/SODIMM/LPDDR5_IN_A.DQ6",
-          "/SODIMM/LPDDR5_IN_A.DQ7"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(83, 255, 34)",
         "track_width": 0.15,
@@ -568,24 +480,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "65Ohm-se-lpddr5-data-a-1",
-        "nets": [
-          "/LPDDR5/LPDDR5_A.DQ10",
-          "/LPDDR5/LPDDR5_A.DQ11",
-          "/LPDDR5/LPDDR5_A.DQ12",
-          "/LPDDR5/LPDDR5_A.DQ13",
-          "/LPDDR5/LPDDR5_A.DQ14",
-          "/LPDDR5/LPDDR5_A.DQ15",
-          "/LPDDR5/LPDDR5_A.DQ8",
-          "/LPDDR5/LPDDR5_A.DQ9",
-          "/SODIMM/LPDDR5_IN_A.DQ10",
-          "/SODIMM/LPDDR5_IN_A.DQ11",
-          "/SODIMM/LPDDR5_IN_A.DQ12",
-          "/SODIMM/LPDDR5_IN_A.DQ13",
-          "/SODIMM/LPDDR5_IN_A.DQ14",
-          "/SODIMM/LPDDR5_IN_A.DQ15",
-          "/SODIMM/LPDDR5_IN_A.DQ8",
-          "/SODIMM/LPDDR5_IN_A.DQ9"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 167, 255)",
         "track_width": 0.2,
@@ -603,24 +498,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "65Ohm-se-lpddr5-data-b-0",
-        "nets": [
-          "/LPDDR5/LPDDR5_B.DQ0",
-          "/LPDDR5/LPDDR5_B.DQ1",
-          "/LPDDR5/LPDDR5_B.DQ2",
-          "/LPDDR5/LPDDR5_B.DQ3",
-          "/LPDDR5/LPDDR5_B.DQ4",
-          "/LPDDR5/LPDDR5_B.DQ5",
-          "/LPDDR5/LPDDR5_B.DQ6",
-          "/LPDDR5/LPDDR5_B.DQ7",
-          "/SODIMM/LPDDR5_IN_B.DQ0",
-          "/SODIMM/LPDDR5_IN_B.DQ1",
-          "/SODIMM/LPDDR5_IN_B.DQ2",
-          "/SODIMM/LPDDR5_IN_B.DQ3",
-          "/SODIMM/LPDDR5_IN_B.DQ4",
-          "/SODIMM/LPDDR5_IN_B.DQ5",
-          "/SODIMM/LPDDR5_IN_B.DQ6",
-          "/SODIMM/LPDDR5_IN_B.DQ7"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 255, 170)",
         "track_width": 0.2,
@@ -638,24 +516,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "65Ohm-se-lpddr5-data-b-1",
-        "nets": [
-          "/LPDDR5/LPDDR5_B.DQ10",
-          "/LPDDR5/LPDDR5_B.DQ11",
-          "/LPDDR5/LPDDR5_B.DQ12",
-          "/LPDDR5/LPDDR5_B.DQ13",
-          "/LPDDR5/LPDDR5_B.DQ14",
-          "/LPDDR5/LPDDR5_B.DQ15",
-          "/LPDDR5/LPDDR5_B.DQ8",
-          "/LPDDR5/LPDDR5_B.DQ9",
-          "/SODIMM/LPDDR5_IN_B.DQ10",
-          "/SODIMM/LPDDR5_IN_B.DQ11",
-          "/SODIMM/LPDDR5_IN_B.DQ12",
-          "/SODIMM/LPDDR5_IN_B.DQ13",
-          "/SODIMM/LPDDR5_IN_B.DQ14",
-          "/SODIMM/LPDDR5_IN_B.DQ15",
-          "/SODIMM/LPDDR5_IN_B.DQ8",
-          "/SODIMM/LPDDR5_IN_B.DQ9"
-        ],
+        "nets": [],
         "pcb_color": "rgb(0, 255, 96)",
         "schematic_color": "rgb(113, 0, 255)",
         "track_width": 0.2,
@@ -673,15 +534,13 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
-        "nets": [
-          "GND"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.2,
         "via_diameter": 0.4,
         "via_drill": 0.2,
-        "wire_width": 11.811023622047244
+        "wire_width": 11.0
       },
       {
         "bus_width": 12.0,
@@ -693,27 +552,614 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
-        "nets": [
-          "+0V5",
-          "+0V9",
-          "+1V05",
-          "+1V1",
-          "+1V8",
-          "+5V",
-          "/Power supply/3.3V_QWIIC"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.2,
         "via_diameter": 0.4,
         "via_drill": 0.2,
-        "wire_width": 11.811023622047244
+        "wire_width": 11.0
       }
     ],
     "meta": {
       "version": 2
     },
-    "net_colors": null
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/LPDDR5/LPDDR5_A.CK_N"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/LPDDR5/LPDDR5_A.CK_P"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/LPDDR5/LPDDR5_A.RDQS0_N"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/LPDDR5/LPDDR5_A.RDQS0_P"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/LPDDR5/LPDDR5_A.RDQS1_N"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/LPDDR5/LPDDR5_A.RDQS1_P"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/LPDDR5/LPDDR5_A.WCK0_N"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/LPDDR5/LPDDR5_A.WCK0_P"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/LPDDR5/LPDDR5_A.WCK1_N"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/LPDDR5/LPDDR5_A.WCK1_P"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/LPDDR5/LPDDR5_B.CK_N"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/LPDDR5/LPDDR5_B.CK_P"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/LPDDR5/LPDDR5_B.RDQS0_N"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/LPDDR5/LPDDR5_B.RDQS0_P"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/LPDDR5/LPDDR5_B.RDQS1_N"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/LPDDR5/LPDDR5_B.RDQS1_P"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/LPDDR5/LPDDR5_B.WCK0_N"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/LPDDR5/LPDDR5_B.WCK0_P"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/LPDDR5/LPDDR5_B.WCK1_N"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/LPDDR5/LPDDR5_B.WCK1_P"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/SODIMM/LPDDR5_IN_A.CK_N"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/SODIMM/LPDDR5_IN_A.CK_P"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/SODIMM/LPDDR5_IN_A.WCK0_N"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/SODIMM/LPDDR5_IN_A.WCK0_P"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/SODIMM/LPDDR5_IN_A.WCK1_N"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/SODIMM/LPDDR5_IN_A.WCK1_P"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/SODIMM/LPDDR5_IN_B.CK_N"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/SODIMM/LPDDR5_IN_B.CK_P"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/SODIMM/LPDDR5_IN_B.WCK0_N"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/SODIMM/LPDDR5_IN_B.WCK0_P"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/SODIMM/LPDDR5_IN_B.WCK1_N"
+      },
+      {
+        "netclass": "110Ohm-diff-lpddr5-clk",
+        "pattern": "/SODIMM/LPDDR5_IN_B.WCK1_P"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-a",
+        "pattern": "/LPDDR5/LPDDR5_A.CA0"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-a",
+        "pattern": "/LPDDR5/LPDDR5_A.CA1"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-a",
+        "pattern": "/LPDDR5/LPDDR5_A.CA2"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-a",
+        "pattern": "/LPDDR5/LPDDR5_A.CA3"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-a",
+        "pattern": "/LPDDR5/LPDDR5_A.CA4"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-a",
+        "pattern": "/LPDDR5/LPDDR5_A.CA5"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-a",
+        "pattern": "/LPDDR5/LPDDR5_A.CA6"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-a",
+        "pattern": "/LPDDR5/LPDDR5_A.CS0"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-a",
+        "pattern": "/LPDDR5/LPDDR5_A.CS1"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-a",
+        "pattern": "/LPDDR5/LPDDR5_A.DMI0"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-a",
+        "pattern": "/LPDDR5/LPDDR5_A.DMI1"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-a",
+        "pattern": "/SODIMM/LPDDR5_IN_A.CA0"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-a",
+        "pattern": "/SODIMM/LPDDR5_IN_A.CA1"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-a",
+        "pattern": "/SODIMM/LPDDR5_IN_A.CA2"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-a",
+        "pattern": "/SODIMM/LPDDR5_IN_A.CA3"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-a",
+        "pattern": "/SODIMM/LPDDR5_IN_A.CA4"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-a",
+        "pattern": "/SODIMM/LPDDR5_IN_A.CA5"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-a",
+        "pattern": "/SODIMM/LPDDR5_IN_A.CA6"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-a",
+        "pattern": "/SODIMM/LPDDR5_IN_A.CS0"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-a",
+        "pattern": "/SODIMM/LPDDR5_IN_A.CS1"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-a",
+        "pattern": "/SODIMM/LPDDR5_IN_A.DMI0"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-a",
+        "pattern": "/SODIMM/LPDDR5_IN_A.DMI1"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-b",
+        "pattern": "/LPDDR5/LPDDR5_B.CA0"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-b",
+        "pattern": "/LPDDR5/LPDDR5_B.CA1"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-b",
+        "pattern": "/LPDDR5/LPDDR5_B.CA2"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-b",
+        "pattern": "/LPDDR5/LPDDR5_B.CA3"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-b",
+        "pattern": "/LPDDR5/LPDDR5_B.CA4"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-b",
+        "pattern": "/LPDDR5/LPDDR5_B.CA5"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-b",
+        "pattern": "/LPDDR5/LPDDR5_B.CA6"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-b",
+        "pattern": "/LPDDR5/LPDDR5_B.CS0"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-b",
+        "pattern": "/LPDDR5/LPDDR5_B.CS1"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-b",
+        "pattern": "/LPDDR5/LPDDR5_B.DMI0"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-b",
+        "pattern": "/LPDDR5/LPDDR5_B.DMI1"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-b",
+        "pattern": "/SODIMM/LPDDR5_IN_B.CA0"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-b",
+        "pattern": "/SODIMM/LPDDR5_IN_B.CA1"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-b",
+        "pattern": "/SODIMM/LPDDR5_IN_B.CA2"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-b",
+        "pattern": "/SODIMM/LPDDR5_IN_B.CA3"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-b",
+        "pattern": "/SODIMM/LPDDR5_IN_B.CA4"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-b",
+        "pattern": "/SODIMM/LPDDR5_IN_B.CA5"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-b",
+        "pattern": "/SODIMM/LPDDR5_IN_B.CA6"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-b",
+        "pattern": "/SODIMM/LPDDR5_IN_B.CS0"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-b",
+        "pattern": "/SODIMM/LPDDR5_IN_B.CS1"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-b",
+        "pattern": "/SODIMM/LPDDR5_IN_B.DMI0"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-cmd/ctrl-b",
+        "pattern": "/SODIMM/LPDDR5_IN_B.DMI1"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-0",
+        "pattern": "/LPDDR5/LPDDR5_A.DQ0"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-0",
+        "pattern": "/LPDDR5/LPDDR5_A.DQ1"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-0",
+        "pattern": "/LPDDR5/LPDDR5_A.DQ2"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-0",
+        "pattern": "/LPDDR5/LPDDR5_A.DQ3"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-0",
+        "pattern": "/LPDDR5/LPDDR5_A.DQ4"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-0",
+        "pattern": "/LPDDR5/LPDDR5_A.DQ5"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-0",
+        "pattern": "/LPDDR5/LPDDR5_A.DQ6"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-0",
+        "pattern": "/LPDDR5/LPDDR5_A.DQ7"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-0",
+        "pattern": "/SODIMM/LPDDR5_IN_A.DQ0"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-0",
+        "pattern": "/SODIMM/LPDDR5_IN_A.DQ1"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-0",
+        "pattern": "/SODIMM/LPDDR5_IN_A.DQ2"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-0",
+        "pattern": "/SODIMM/LPDDR5_IN_A.DQ3"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-0",
+        "pattern": "/SODIMM/LPDDR5_IN_A.DQ4"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-0",
+        "pattern": "/SODIMM/LPDDR5_IN_A.DQ5"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-0",
+        "pattern": "/SODIMM/LPDDR5_IN_A.DQ6"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-0",
+        "pattern": "/SODIMM/LPDDR5_IN_A.DQ7"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-1",
+        "pattern": "/LPDDR5/LPDDR5_A.DQ10"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-1",
+        "pattern": "/LPDDR5/LPDDR5_A.DQ11"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-1",
+        "pattern": "/LPDDR5/LPDDR5_A.DQ12"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-1",
+        "pattern": "/LPDDR5/LPDDR5_A.DQ13"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-1",
+        "pattern": "/LPDDR5/LPDDR5_A.DQ14"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-1",
+        "pattern": "/LPDDR5/LPDDR5_A.DQ15"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-1",
+        "pattern": "/LPDDR5/LPDDR5_A.DQ8"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-1",
+        "pattern": "/LPDDR5/LPDDR5_A.DQ9"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-1",
+        "pattern": "/SODIMM/LPDDR5_IN_A.DQ10"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-1",
+        "pattern": "/SODIMM/LPDDR5_IN_A.DQ11"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-1",
+        "pattern": "/SODIMM/LPDDR5_IN_A.DQ12"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-1",
+        "pattern": "/SODIMM/LPDDR5_IN_A.DQ13"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-1",
+        "pattern": "/SODIMM/LPDDR5_IN_A.DQ14"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-1",
+        "pattern": "/SODIMM/LPDDR5_IN_A.DQ15"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-1",
+        "pattern": "/SODIMM/LPDDR5_IN_A.DQ8"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-a-1",
+        "pattern": "/SODIMM/LPDDR5_IN_A.DQ9"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-0",
+        "pattern": "/LPDDR5/LPDDR5_B.DQ0"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-0",
+        "pattern": "/LPDDR5/LPDDR5_B.DQ1"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-0",
+        "pattern": "/LPDDR5/LPDDR5_B.DQ2"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-0",
+        "pattern": "/LPDDR5/LPDDR5_B.DQ3"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-0",
+        "pattern": "/LPDDR5/LPDDR5_B.DQ4"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-0",
+        "pattern": "/LPDDR5/LPDDR5_B.DQ5"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-0",
+        "pattern": "/LPDDR5/LPDDR5_B.DQ6"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-0",
+        "pattern": "/LPDDR5/LPDDR5_B.DQ7"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-0",
+        "pattern": "/SODIMM/LPDDR5_IN_B.DQ0"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-0",
+        "pattern": "/SODIMM/LPDDR5_IN_B.DQ1"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-0",
+        "pattern": "/SODIMM/LPDDR5_IN_B.DQ2"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-0",
+        "pattern": "/SODIMM/LPDDR5_IN_B.DQ3"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-0",
+        "pattern": "/SODIMM/LPDDR5_IN_B.DQ4"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-0",
+        "pattern": "/SODIMM/LPDDR5_IN_B.DQ5"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-0",
+        "pattern": "/SODIMM/LPDDR5_IN_B.DQ6"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-0",
+        "pattern": "/SODIMM/LPDDR5_IN_B.DQ7"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-1",
+        "pattern": "/LPDDR5/LPDDR5_B.DQ10"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-1",
+        "pattern": "/LPDDR5/LPDDR5_B.DQ11"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-1",
+        "pattern": "/LPDDR5/LPDDR5_B.DQ12"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-1",
+        "pattern": "/LPDDR5/LPDDR5_B.DQ13"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-1",
+        "pattern": "/LPDDR5/LPDDR5_B.DQ14"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-1",
+        "pattern": "/LPDDR5/LPDDR5_B.DQ15"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-1",
+        "pattern": "/LPDDR5/LPDDR5_B.DQ8"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-1",
+        "pattern": "/LPDDR5/LPDDR5_B.DQ9"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-1",
+        "pattern": "/SODIMM/LPDDR5_IN_B.DQ10"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-1",
+        "pattern": "/SODIMM/LPDDR5_IN_B.DQ11"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-1",
+        "pattern": "/SODIMM/LPDDR5_IN_B.DQ12"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-1",
+        "pattern": "/SODIMM/LPDDR5_IN_B.DQ13"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-1",
+        "pattern": "/SODIMM/LPDDR5_IN_B.DQ14"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-1",
+        "pattern": "/SODIMM/LPDDR5_IN_B.DQ15"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-1",
+        "pattern": "/SODIMM/LPDDR5_IN_B.DQ8"
+      },
+      {
+        "netclass": "65Ohm-se-lpddr5-data-b-1",
+        "pattern": "/SODIMM/LPDDR5_IN_B.DQ9"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+0V5"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+0V9"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+1V05"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+1V1"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+1V8"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power supply/3.3V_QWIIC"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -729,6 +1175,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
@@ -760,7 +1208,11 @@
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
