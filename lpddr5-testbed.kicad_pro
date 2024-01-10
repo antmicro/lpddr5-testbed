@@ -443,6 +443,31 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "239015f0-3f9a-4270-9961-5849571f87d5",
+      ""
+    ],
+    [
+      "afd026d6-1a56-4fdd-8c33-af6dc6bd4334",
+      "Translators"
+    ],
+    [
+      "00000000-0000-0000-0000-00005fdc4a05",
+      "SODIMM"
+    ],
+    [
+      "00000000-0000-0000-0000-00005ff943ac",
+      "LPDDR5"
+    ],
+    [
+      "6dc6d680-4b07-4d6c-9fb2-b5a24aa4dc23",
+      "Power supply"
+    ],
+    [
+      "8284e6ba-95fc-4176-b0ce-5218f401349d",
+      "Translators1"
+    ]
+  ],
   "text_variables": {}
 }
